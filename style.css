@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  width: 300px;
+}
+.margin-left {
+  margin-left: 270px;
+  padding: 20px;
+}
+.textLight {
+  font-weight: 700;
+  color: rgb(255, 121, 97);
+  font-size: 3rem;
+}
+.textDark {
+  font-weight: 700;
+  color: rgb(54, 54, 104);
+  font-size: 3rem;
+}
+.para-text {
+  margin-top: 25px;
+  color: #555;
+}
+.btn {
+  background: rgb(57, 57, 218);
+  padding: 12px 25px;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.icon {
+  margin-right: 10px;
+}
+.btn:hover {
+  font-size: 1.1rem;
+  color: rgb(255, 121, 97);
+}
+/* casual shoe section */
+.casual-shoes {
+  margin-top: 10rem;
+}
+.sect-title {
+  margin-bottom: 8rem;
+  font-weight: 600;
+  color: rgb(54, 54, 104);
+}
+.shoe-title {
+  color: rgb(54, 54, 104);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.shoe-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px 0 15px;
+}
+.price-amount {
+  color: rgb(255, 121, 97);
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 30px;
+}
+.shopping-section {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.img-resize {
+  width: 70px;
+  height: 70px;
+  margin-right: 40px;
+}
+.shopping-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgb(54, 54, 104);
+}
+.shopping-text {
+  font-size: 0.9rem;
+  color: #666;
+  padding-right: 5rem;
+}
+@media (min-width: 764px) and (max-width: 990px) {
+  .shoe-price {
+    flex-direction: column;
+  }
+}
